@@ -8,7 +8,7 @@ img: gcp-secure-infrastructure.png
 thumbnail: gcp-secure-infrastructure.png
 alt: Imagen principal del proyecto de portafolio
 project-date: Septiembre 2025
-github_url: "https://github.com/cesar-florian/cesar-florian.github.com"
+github_url: "https://github.com/cesar-florian/cesar-florian.github.io"
 has_project_url: false
 role: 'Diseñador UX/UI'
 technologies: ['HTML', 'CSS', 'JS', 'Jekyll', 'Liquid']
