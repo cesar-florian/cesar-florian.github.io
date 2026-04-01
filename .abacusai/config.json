@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Bash(diff *))",
+      "Bash(Bash(diff *))",
+      "Bash(Bash(diff *))",
+      "Bash(Bash(head *))",
+      "Bash(Bash(diff *))",
+      "Bash(Bash(head *))",
+      "Bash(head *)",
+      "Bash(diff *)",
+      "Bash(Bash(sort) *))",
+      "Bash(grep *)"
+    ]
+  }
+}
