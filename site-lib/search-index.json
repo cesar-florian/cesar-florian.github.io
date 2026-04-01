@@ -25,21 +25,21 @@
             "title": "Infraestructura web segura",
             "aliases": [],
             "headers": ["Infraestructura web segura", "Problema", "Resumen de la solución", "Público principal", "Objetivos", "Arquitectura", "Diagrama de arquitectura de nube", "Diagrama de secuencia", "Arquitectura de red", "Componentes y servicios", "Decisiones técnicas", "Implementación de infraestructura y configuraciones", "Red virtual", "VCN", "Subredes", "Gateways", "Tablas de rutas", "Listas de seguridad", "WAF", "Geo-blocking (access control)", "Rate limiting", "OWASP top 10 (request protection)", "DNS y certificados", "Zona y registro", "Certificado SSL", "Balanceador de carga", "Instancias", "Configuración de instancias", "Pool de instancias", "Logging y monitoreo", "Logs centralizados en OCI Logging", "Registros de auditoría", "Monitoreo de metricas", "Testing y validación", "Tests de análisis de rutas de red", "Demostración web", "Ubuntu (Nginx)", "Windows (IIS)", "Seguridad", "Aspectos de seguridad", "Capa de red", "Capa de aplicación (WAF)", "Capa de transporte", "Capa de acceso", "Capa de datos", "Ejemplos de uso", "Consideraciones", "Confiabilidad", "Acuerdos de nivel de servicio (SLA) de la solución", "Estimación de costos por servicio", "Alcance", "Lo que se incluyó", "Lo que no está incluido", "Valor y resultados de la solución", "Mejoras y evolución futura"],
-            "tags": ["#project"],
+            "tags": ["#task"],
             "path": "cloud/oracle/oci-infraestructura-web-segura"
         },
         "4": {
             "title": "Análisis de costos en la nube",
             "aliases": [],
             "headers": ["Análisis de costos en la nube", "Problema", "Resumen de la solución", "Público principal", "Objetivos", "Arquitectura", "Diagrama de arquitectura de nube", "Diagrama de secuencia", "Arquitectura de red", "Componentes y servicios", "Decisiones técnicas", "Implementación de infraestructura y configuraciones", "Tenancy y gobierno", "Notificaciones de alerta de presupuesto configurado", "Configuración de alarma de costos por hora", "Notificación de alerta de costos por hora", "Configuración de alarma de costo pronosticado para la siguiente hora", "Notificación de alerta de costo pronosticado para la siguiente hora", "Recomendaciones de optimización en Cloud Advisor", "IAM", "Grupos dinámicos", "Políticas", "Red y seguridad", "VCN mapa de rutas", "Registros de auditoria de actualización de alarma", "Base de datos", "Detalles de configuración", "Monitoreo", "Backups", "Vistas", "Functions y Containers", "Monitoreo de funciones", "Logs de funciones", "Repositorio de contenedores", "Aplicación", "Páginas APEX", "Grants al esquema de APEX", "Monitoreo instancia APEX", "Demostración web", "Login", "Gráficos de comparación", "Comparación semana actual vs semana anterior", "Comparación mes de septiembre vs mes de agosto", "Gráficos de pronóstico de costos", "Pronóstico para las siguientes horas del día", "Pronóstico para los siguientes días del mes", "Gráficos de detalle de costos", "Detalle de costos por periodo de tiempo", "Reporte exportado", "Filtros en periodos de tiempo", "Agrupaciones en periodos de tiempo", "Aspectos de seguridad", "Ejemplos de uso", "Consideraciones", "Observabilidad y confiabilidad", "Monitoreo y observabilidad", "Confiabilidad", "Acuerdos de nivel de servicio (SLA) de la solución", "SLA de alerta por umbral", "Latencia de actualización de datos en el dashboard APEX", "Estimación de costos por servicio", "Alcance", "Lo que se incluyó", "Lo que no está incluido", "Valor y resultados de la solución", "Mejoras y evolución futura", "Enlaces / Etiquetas"],
-            "tags": ["#project"],
+            "tags": ["#project", "#task"],
             "path": "cloud/oracle/oci-analisis-costos-en-la-nube"
         },
         "5": {
             "title": "GCP Solución segura",
             "aliases": [],
             "headers": ["Implementación de infraestructura de red segura en GCP", "Problema", "Resumen de la solución", "Arquitectura de la solución", "Diagrama de arquitectura de nube", "Arquitectura de red", "Componentes y tecnologías", "Componente clave: FortiGate NGFW", "Implementación de infraestructura y configuraciones", "Redes de VPC", "Subredes", "Direccionamiento IP", "Configuración de conexiones de VPC a través de políticas de Firewall", "Políticas de Firewall de VCP", "Rutas creadas", "Instancias de VM", "Interfaces configuradas dentro de FortiGate", "Rutas estáticas configuradas dentro de FortiGate", "Prueba externa de ping masivo", "Simulación de ataques internos", "Escaneo de puertos y detección de SO a VM", "Ataques DDOS y SYN Flooding a VMs de red LAN", "Intento de reconocer hosts conectados a la red", "Visualizar logs de eventos en consola de FortiGate", "Visualizar métricas de eventos en Graylog", "Resultados y logros destacados"],
-            "tags": ["#project"],
+            "tags": [],
             "path": "cloud/gcp/gcp-secure-infrastructure"
         }
     },
@@ -247,6 +247,11 @@
                 "3": 1
             }
         }],
+        ["374974384c38", {
+            "5": {
+                "3": 4
+            }
+        }],
         ["3738", {
             "5": {
                 "3": 2
@@ -286,6 +291,11 @@
             "5": {
                 "3": 56,
                 "4": 7
+            }
+        }],
+        ["39fa6446", {
+            "5": {
+                "3": 4
             }
         }],
         ["3940", {
@@ -441,157 +451,66 @@
                 "4": 2
             }
         }],
-        ["90", {
+        ["85", {
             "5": {
-                "3": 1,
+                "3": 1
+            }
+        }],
+        ["86", {
+            "5": {
+                "3": 1
+            }
+        }],
+        ["81", {
+            "5": {
+                "3": 3
+            }
+        }],
+        ["84", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["83", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["82", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["8", {
+            "5": {
+                "3": 29,
                 "4": 2
             }
         }],
-        ["90fe", {
+        ["8049", {
             "5": {
-                "3": 4
+                "3": 1
             }
         }],
-        ["95", {
+        ["8048", {
             "5": {
-                "3": 3,
-                "4": 1
+                "3": 1
             }
         }],
-        ["9582fd99", {
+        ["8018", {
             "5": {
-                "3": 4
+                "3": 1
             }
         }],
-        ["9660", {
+        ["8017", {
             "5": {
-                "3": 2
+                "3": 1
             }
         }],
-        ["9b06", {
+        ["80", {
             "5": {
-                "3": 2
-            }
-        }],
-        ["920350", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920340", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920330", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920320", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920311", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920310", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920300", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920290", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920280", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920270", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920260", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920230", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920240", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920220", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920210", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920201", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920200", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920190", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920180", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920170", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920120", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["920100", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["9", {
-            "5": {
-                "3": 28,
+                "3": 12,
                 "4": 2
-            }
-        }],
-        ["99", {
-            "5": {
-                "3": 19
             }
         }],
         ["5from", {
@@ -627,6 +546,11 @@
         ["5miicljccax4ccqdlj7", {
             "5": {
                 "3": 1
+            }
+        }],
+        ["5995", {
+            "5": {
+                "3": 4
             }
         }],
         ["59", {
@@ -669,6 +593,11 @@
                 "3": 8
             }
         }],
+        ["547a875d46e1", {
+            "5": {
+                "3": 32
+            }
+        }],
         ["53", {
             "5": {
                 "3": 6
@@ -690,11 +619,6 @@
             "5": {
                 "3": 41,
                 "4": 15
-            }
-        }],
-        ["5d0e", {
-            "5": {
-                "3": 32
             }
         }],
         ["68", {
@@ -965,76 +889,167 @@
                 "3": 1
             }
         }],
-        ["85", {
+        ["90", {
             "5": {
-                "3": 1
+                "3": 1,
+                "4": 2
             }
         }],
-        ["86", {
+        ["902a", {
             "5": {
-                "3": 1
+                "3": 4
             }
         }],
-        ["81", {
+        ["95", {
             "5": {
-                "3": 3
+                "3": 3,
+                "4": 1
             }
         }],
-        ["84", {
+        ["9d9918bbeed7", {
             "5": {
                 "3": 2
             }
         }],
-        ["84f1", {
+        ["9d97", {
             "5": {
                 "3": 32
             }
         }],
-        ["83", {
+        ["920350", {
             "5": {
                 "3": 2
             }
         }],
-        ["82", {
+        ["920340", {
             "5": {
                 "3": 2
             }
         }],
-        ["8", {
+        ["920330", {
             "5": {
-                "3": 29,
+                "3": 2
+            }
+        }],
+        ["920320", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920311", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920310", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920300", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920290", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920280", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920270", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920260", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920230", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920240", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920220", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920210", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920201", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920200", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920190", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920180", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920170", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920120", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["920100", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["9", {
+            "5": {
+                "3": 28,
                 "4": 2
             }
         }],
-        ["8d1157c16976", {
+        ["99", {
             "5": {
-                "3": 32
+                "3": 19
             }
         }],
-        ["8049", {
+        ["4bd7", {
             "5": {
-                "3": 1
+                "4": 4
             }
         }],
-        ["8048", {
+        ["4b2e", {
             "5": {
-                "3": 1
+                "3": 2
             }
         }],
-        ["8018", {
+        ["4c468450", {
             "5": {
-                "3": 1
-            }
-        }],
-        ["8017", {
-            "5": {
-                "3": 1
-            }
-        }],
-        ["80", {
-            "5": {
-                "3": 12,
-                "4": 2
+                "4": 4
             }
         }],
         ["4existing", {
@@ -1042,20 +1057,10 @@
                 "3": 1
             }
         }],
-        ["4ba7", {
-            "5": {
-                "3": 4
-            }
-        }],
         ["48", {
             "5": {
                 "3": 5,
                 "4": 4
-            }
-        }],
-        ["498a", {
-            "5": {
-                "3": 2
             }
         }],
         ["49", {
@@ -1071,11 +1076,6 @@
         ["46", {
             "5": {
                 "3": 6
-            }
-        }],
-        ["45940e469f8a", {
-            "5": {
-                "4": 4
             }
         }],
         ["45run", {
@@ -1129,6 +1129,11 @@
                 "3": 6
             }
         }],
+        ["44ee", {
+            "5": {
+                "3": 4
+            }
+        }],
         ["44", {
             "5": {
                 "3": 9
@@ -1175,11 +1180,6 @@
                 "4": 2
             }
         }],
-        ["402e", {
-            "5": {
-                "4": 4
-            }
-        }],
         ["403", {
             "5": {
                 "3": 2
@@ -1196,7 +1196,7 @@
                 "4": 4
             }
         }],
-        ["4daa", {
+        ["4f0f", {
             "5": {
                 "3": 32
             }
@@ -1925,16 +1925,6 @@
                 "3": 2
             }
         }],
-        ["1316", {
-            "5": {
-                "3": 4
-            }
-        }],
-        ["1314resource", {
-            "5": {
-                "3": 2
-            }
-        }],
         ["13eof1415existing", {
             "5": {
                 "3": 1
@@ -1953,6 +1943,11 @@
         ["13", {
             "5": {
                 "3": 19
+            }
+        }],
+        ["1314resource", {
+            "5": {
+                "3": 2
             }
         }],
         ["1213", {
@@ -2242,6 +2237,11 @@
         ["041", {
             "5": {
                 "3": 1
+            }
+        }],
+        ["0953e2de", {
+            "5": {
+                "3": 32
             }
         }],
         ["0", {
@@ -2800,11 +2800,6 @@
                 "3": 8
             }
         }],
-        ["fcf591a5", {
-            "5": {
-                "3": 32
-            }
-        }],
         ["queries", {
             "5": {
                 "3": 3
@@ -3081,11 +3076,6 @@
                 "3": 2
             }
         }],
-        ["ecdff9cb", {
-            "5": {
-                "4": 4
-            }
-        }],
         ["east", {
             "5": {
                 "4": 2
@@ -3293,7 +3283,7 @@
                 "3": 1
             }
         }],
-        ["e0fde6595c90", {
+        ["e788", {
             "5": {
                 "3": 2
             }
@@ -4693,6 +4683,11 @@
                 "4": 1
             }
         }],
+        ["bf19", {
+            "5": {
+                "4": 4
+            }
+        }],
         ["brutos", {
             "5": {
                 "4": 2
@@ -4757,11 +4752,6 @@
                 "4": 4
             }
         }],
-        ["b7a64ec4bc47", {
-            "5": {
-                "3": 4
-            }
-        }],
         ["beneficio", {
             "5": {
                 "3": 1,
@@ -4776,6 +4766,11 @@
         ["begin", {
             "5": {
                 "3": 12
+            }
+        }],
+        ["ba77", {
+            "5": {
+                "4": 4
             }
         }],
         ["bajo", {
@@ -9213,16 +9208,6 @@
                 "4": 4
             }
         }],
-        ["ddfd093c", {
-            "5": {
-                "3": 2
-            }
-        }],
-        ["d4f2", {
-            "5": {
-                "4": 4
-            }
-        }],
         ["día6", {
             "5": {
                 "4": 1
@@ -9952,11 +9937,6 @@
                 "4": 2
             }
         }],
-        ["a33b", {
-            "5": {
-                "4": 4
-            }
-        }],
         ["aaaaaaaaned4fkpkisbwjlr56u7cj63lf3wffbilvqknstgtvzub7vhqkggq", {
             "5": {
                 "4": 1
@@ -10348,6 +10328,21 @@
         ["a", {
             "5": {
                 "3": 8
+            }
+        }],
+        ["a2be", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["af93e6e4", {
+            "5": {
+                "3": 2
+            }
+        }],
+        ["ae02", {
+            "5": {
+                "3": 32
             }
         }],
         ["analiza", {
@@ -10765,6 +10760,11 @@
         ["acknowledge", {
             "5": {
                 "4": 2
+            }
+        }],
+        ["acdd6748d724", {
+            "5": {
+                "4": 4
             }
         }],
         ["acciones", {

@@ -41,6 +41,9 @@ tags: ['GCP', 'Security', 'FortiGate']
         <link rel="stylesheet" href="/site-lib/styles/snippets.css">
     </noscript>
     <link rel="stylesheet" href="/site-lib/styles/obsidian.css">
+    <link rel="preload" href="/site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="/site-lib/styles/other-plugins.css">
+    </noscript>
     <link rel="preload" href="/site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel="stylesheet" href="/site-lib/styles/global-variable-styles.css">
     </noscript>
@@ -455,7 +458,7 @@ tags: ['GCP', 'Security', 'FortiGate']
     </script>
 </head>
 
-<body class="publish css-settings-manager show-ribbon is-focused">
+<body class="publish css-settings-manager show-ribbon code-styler-style-inline code-styler code-styler-gutter-highlight is-focused">
     <script defer="">
         let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")), window.innerWidth < 480 ? document.body.classList.add("is-phone") : window.innerWidth < 768 ? document.body.classList.add("is-tablet") : window.innerWidth < 1024 ? document.body.classList.add("is-small-screen") : document.body.classList.add("is-large-screen")
@@ -550,177 +553,177 @@ tags: ['GCP', 'Security', 'FortiGate']
                                     </svg></span>Diagrama de arquitectura de nube</h3>
                         </div>
                         <div class="el-pre code-styler-pre-parent">
-                            <div class="mermaid"><svg aria-roledescription="flowchart-v2" role="graphics-document document" viewBox="0 0 1118.125 765" height="765" class="flowchart" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1118.125" id="m285c278522331108">
+                            <div class="mermaid"><svg aria-roledescription="flowchart-v2" role="graphics-document document" viewBox="0 0 1118.125 765" height="765" class="flowchart" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1118.125" id="ma07b52e18738bc65">
                                     <style>
-                                        #m285c278522331108 {
+                                        #ma07b52e18738bc65 {
                                             font-family: var(--font-mermaid);
                                             font-size: 16px;
                                             fill: #333;
                                         }
 
-                                        #m285c278522331108 .error-icon {
+                                        #ma07b52e18738bc65 .error-icon {
                                             fill: #552222;
                                         }
 
-                                        #m285c278522331108 .error-text {
+                                        #ma07b52e18738bc65 .error-text {
                                             fill: #552222;
                                             stroke: #552222;
                                         }
 
-                                        #m285c278522331108 .edge-thickness-normal {
+                                        #ma07b52e18738bc65 .edge-thickness-normal {
                                             stroke-width: 1px;
                                         }
 
-                                        #m285c278522331108 .edge-thickness-thick {
+                                        #ma07b52e18738bc65 .edge-thickness-thick {
                                             stroke-width: 3.5px;
                                         }
 
-                                        #m285c278522331108 .edge-pattern-solid {
+                                        #ma07b52e18738bc65 .edge-pattern-solid {
                                             stroke-dasharray: 0;
                                         }
 
-                                        #m285c278522331108 .edge-thickness-invisible {
+                                        #ma07b52e18738bc65 .edge-thickness-invisible {
                                             stroke-width: 0;
                                             fill: none;
                                         }
 
-                                        #m285c278522331108 .edge-pattern-dashed {
+                                        #ma07b52e18738bc65 .edge-pattern-dashed {
                                             stroke-dasharray: 3;
                                         }
 
-                                        #m285c278522331108 .edge-pattern-dotted {
+                                        #ma07b52e18738bc65 .edge-pattern-dotted {
                                             stroke-dasharray: 2;
                                         }
 
-                                        #m285c278522331108 .marker {
+                                        #ma07b52e18738bc65 .marker {
                                             fill: #333333;
                                             stroke: #333333;
                                         }
 
-                                        #m285c278522331108 .marker.cross {
+                                        #ma07b52e18738bc65 .marker.cross {
                                             stroke: #333333;
                                         }
 
-                                        #m285c278522331108 svg {
+                                        #ma07b52e18738bc65 svg {
                                             font-family: var(--font-mermaid);
                                             font-size: 16px;
                                         }
 
-                                        #m285c278522331108 p {
+                                        #ma07b52e18738bc65 p {
                                             margin: 0;
                                         }
 
-                                        #m285c278522331108 .label {
+                                        #ma07b52e18738bc65 .label {
                                             font-family: var(--font-mermaid);
                                             color: #333;
                                         }
 
-                                        #m285c278522331108 .cluster-label text {
+                                        #ma07b52e18738bc65 .cluster-label text {
                                             fill: #333;
                                         }
 
-                                        #m285c278522331108 .cluster-label span {
+                                        #ma07b52e18738bc65 .cluster-label span {
                                             color: #333;
                                         }
 
-                                        #m285c278522331108 .cluster-label span p {
+                                        #ma07b52e18738bc65 .cluster-label span p {
                                             background-color: transparent;
                                         }
 
-                                        #m285c278522331108 .label text,
-                                        #m285c278522331108 span {
+                                        #ma07b52e18738bc65 .label text,
+                                        #ma07b52e18738bc65 span {
                                             fill: #333;
                                             color: #333;
                                         }
 
-                                        #m285c278522331108 .node rect,
-                                        #m285c278522331108 .node circle,
-                                        #m285c278522331108 .node ellipse,
-                                        #m285c278522331108 .node polygon,
-                                        #m285c278522331108 .node path {
+                                        #ma07b52e18738bc65 .node rect,
+                                        #ma07b52e18738bc65 .node circle,
+                                        #ma07b52e18738bc65 .node ellipse,
+                                        #ma07b52e18738bc65 .node polygon,
+                                        #ma07b52e18738bc65 .node path {
                                             fill: #ECECFF;
                                             stroke: #9370DB;
                                             stroke-width: 1px;
                                         }
 
-                                        #m285c278522331108 .rough-node .label text,
-                                        #m285c278522331108 .node .label text,
-                                        #m285c278522331108 .image-shape .label,
-                                        #m285c278522331108 .icon-shape .label {
+                                        #ma07b52e18738bc65 .rough-node .label text,
+                                        #ma07b52e18738bc65 .node .label text,
+                                        #ma07b52e18738bc65 .image-shape .label,
+                                        #ma07b52e18738bc65 .icon-shape .label {
                                             text-anchor: middle;
                                         }
 
-                                        #m285c278522331108 .node .katex path {
+                                        #ma07b52e18738bc65 .node .katex path {
                                             fill: #000;
                                             stroke: #000;
                                             stroke-width: 1px;
                                         }
 
-                                        #m285c278522331108 .rough-node .label,
-                                        #m285c278522331108 .node .label,
-                                        #m285c278522331108 .image-shape .label,
-                                        #m285c278522331108 .icon-shape .label {
+                                        #ma07b52e18738bc65 .rough-node .label,
+                                        #ma07b52e18738bc65 .node .label,
+                                        #ma07b52e18738bc65 .image-shape .label,
+                                        #ma07b52e18738bc65 .icon-shape .label {
                                             text-align: center;
                                         }
 
-                                        #m285c278522331108 .node.clickable {
+                                        #ma07b52e18738bc65 .node.clickable {
                                             cursor: pointer;
                                         }
 
-                                        #m285c278522331108 .root .anchor path {
+                                        #ma07b52e18738bc65 .root .anchor path {
                                             fill: #333333 !important;
                                             stroke-width: 0;
                                             stroke: #333333;
                                         }
 
-                                        #m285c278522331108 .arrowheadPath {
+                                        #ma07b52e18738bc65 .arrowheadPath {
                                             fill: #333333;
                                         }
 
-                                        #m285c278522331108 .edgePath .path {
+                                        #ma07b52e18738bc65 .edgePath .path {
                                             stroke: #333333;
                                             stroke-width: 2.0px;
                                         }
 
-                                        #m285c278522331108 .flowchart-link {
+                                        #ma07b52e18738bc65 .flowchart-link {
                                             stroke: #333333;
                                             fill: none;
                                         }
 
-                                        #m285c278522331108 .edgeLabel {
+                                        #ma07b52e18738bc65 .edgeLabel {
                                             background-color: rgba(232, 232, 232, 0.8);
                                             text-align: center;
                                         }
 
-                                        #m285c278522331108 .edgeLabel p {
+                                        #ma07b52e18738bc65 .edgeLabel p {
                                             background-color: rgba(232, 232, 232, 0.8);
                                         }
 
-                                        #m285c278522331108 .edgeLabel rect {
+                                        #ma07b52e18738bc65 .edgeLabel rect {
                                             opacity: 0.5;
                                             background-color: rgba(232, 232, 232, 0.8);
                                             fill: rgba(232, 232, 232, 0.8);
                                         }
 
-                                        #m285c278522331108 .labelBkg {
+                                        #ma07b52e18738bc65 .labelBkg {
                                             background-color: rgba(232, 232, 232, 0.5);
                                         }
 
-                                        #m285c278522331108 .cluster rect {
+                                        #ma07b52e18738bc65 .cluster rect {
                                             fill: #ffffde;
                                             stroke: #aaaa33;
                                             stroke-width: 1px;
                                         }
 
-                                        #m285c278522331108 .cluster text {
+                                        #ma07b52e18738bc65 .cluster text {
                                             fill: #333;
                                         }
 
-                                        #m285c278522331108 .cluster span {
+                                        #ma07b52e18738bc65 .cluster span {
                                             color: #333;
                                         }
 
-                                        #m285c278522331108 div.mermaidTooltip {
+                                        #ma07b52e18738bc65 div.mermaidTooltip {
                                             position: absolute;
                                             text-align: center;
                                             max-width: 200px;
@@ -734,57 +737,57 @@ tags: ['GCP', 'Security', 'FortiGate']
                                             z-index: 100;
                                         }
 
-                                        #m285c278522331108 .flowchartTitleText {
+                                        #ma07b52e18738bc65 .flowchartTitleText {
                                             text-anchor: middle;
                                             font-size: 18px;
                                             fill: #333;
                                         }
 
-                                        #m285c278522331108 rect.text {
+                                        #ma07b52e18738bc65 rect.text {
                                             fill: none;
                                             stroke-width: 0;
                                         }
 
-                                        #m285c278522331108 .icon-shape,
-                                        #m285c278522331108 .image-shape {
+                                        #ma07b52e18738bc65 .icon-shape,
+                                        #ma07b52e18738bc65 .image-shape {
                                             background-color: rgba(232, 232, 232, 0.8);
                                             text-align: center;
                                         }
 
-                                        #m285c278522331108 .icon-shape p,
-                                        #m285c278522331108 .image-shape p {
+                                        #ma07b52e18738bc65 .icon-shape p,
+                                        #ma07b52e18738bc65 .image-shape p {
                                             background-color: rgba(232, 232, 232, 0.8);
                                             padding: 2px;
                                         }
 
-                                        #m285c278522331108 .icon-shape rect,
-                                        #m285c278522331108 .image-shape rect {
+                                        #ma07b52e18738bc65 .icon-shape rect,
+                                        #ma07b52e18738bc65 .image-shape rect {
                                             opacity: 0.5;
                                             background-color: rgba(232, 232, 232, 0.8);
                                             fill: rgba(232, 232, 232, 0.8);
                                         }
 
-                                        #m285c278522331108 :root {
+                                        #ma07b52e18738bc65 :root {
                                             --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
                                         }
                                     </style>
                                     <g>
-                                        <marker orient="auto" markerHeight="8" markerWidth="8" markerUnits="userSpaceOnUse" refY="5" refX="5" viewBox="0 0 10 10" class="marker flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-pointEnd">
+                                        <marker orient="auto" markerHeight="8" markerWidth="8" markerUnits="userSpaceOnUse" refY="5" refX="5" viewBox="0 0 10 10" class="marker flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd">
                                             <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path>
                                         </marker>
-                                        <marker orient="auto" markerHeight="8" markerWidth="8" markerUnits="userSpaceOnUse" refY="5" refX="4.5" viewBox="0 0 10 10" class="marker flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-pointStart">
+                                        <marker orient="auto" markerHeight="8" markerWidth="8" markerUnits="userSpaceOnUse" refY="5" refX="4.5" viewBox="0 0 10 10" class="marker flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointStart">
                                             <path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path>
                                         </marker>
-                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-circleEnd">
+                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-circleEnd">
                                             <circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle>
                                         </marker>
-                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-circleStart">
+                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-circleStart">
                                             <circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle>
                                         </marker>
-                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-crossEnd">
+                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-crossEnd">
                                             <path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path>
                                         </marker>
-                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart-v2" id="m285c278522331108-m285c278522331108_flowchart-v2-crossStart">
+                                        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart-v2" id="ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-crossStart">
                                             <path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path>
                                         </marker>
                                         <g class="root">
@@ -881,13 +884,13 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                 </g>
                                             </g>
                                             <g class="edgePaths">
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_Internet_VPN_0" d="M388.344,47L388.344,51.167C388.344,55.333,388.344,63.667,388.344,72C388.344,80.333,388.344,88.667,388.344,97C388.344,105.333,388.344,113.667,388.344,122C388.344,130.333,388.344,138.667,388.344,147C388.344,155.333,388.344,163.667,388.344,172C388.344,180.333,388.344,188.667,388.344,196.333C388.344,204,388.344,211,388.344,214.5L388.344,218"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_VPN_IPS_1" d="M388.344,300L388.344,304.167C388.344,308.333,388.344,316.667,388.344,325C388.344,333.333,388.344,341.667,388.344,350C388.344,358.333,388.344,366.667,403.086,375.324C417.829,383.981,447.314,392.962,462.056,397.452L476.799,401.943"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_VPNUsers_IPS_2" d="M729.781,292.5L729.781,297.917C729.781,303.333,729.781,314.167,729.781,323.75C729.781,333.333,729.781,341.667,729.781,350C729.781,358.333,729.781,366.667,715.039,375.324C700.296,383.981,670.811,392.962,656.069,397.452L641.326,401.943"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Domain_3" d="M480.625,438.795L436.065,445.496C391.505,452.197,302.385,465.598,257.826,476.466C213.266,487.333,213.266,495.667,213.266,504C213.266,512.333,213.266,520.667,213.266,528.333C213.266,536,213.266,543,213.266,546.5L213.266,550"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_File_4" d="M499.213,454L489.977,458.167C480.741,462.333,462.269,470.667,453.033,479C443.797,487.333,443.797,495.667,443.797,504C443.797,512.333,443.797,520.667,443.797,528.333C443.797,536,443.797,543,443.797,546.5L443.797,550"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Web_5" d="M618.912,454L628.148,458.167C637.384,462.333,655.856,470.667,665.092,479C674.328,487.333,674.328,495.667,674.328,504C674.328,512.333,674.328,520.667,674.328,528.333C674.328,536,674.328,543,674.328,546.5L674.328,550"></path>
-                                                <path marker-end="url(#m285c278522331108-m285c278522331108_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Log_6" d="M637.5,438.795L682.06,445.496C726.62,452.197,815.74,465.598,860.299,476.466C904.859,487.333,904.859,495.667,904.859,504C904.859,512.333,904.859,520.667,904.859,528.333C904.859,536,904.859,543,904.859,546.5L904.859,550"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_Internet_VPN_0" d="M388.344,47L388.344,51.167C388.344,55.333,388.344,63.667,388.344,72C388.344,80.333,388.344,88.667,388.344,97C388.344,105.333,388.344,113.667,388.344,122C388.344,130.333,388.344,138.667,388.344,147C388.344,155.333,388.344,163.667,388.344,172C388.344,180.333,388.344,188.667,388.344,196.333C388.344,204,388.344,211,388.344,214.5L388.344,218"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_VPN_IPS_1" d="M388.344,300L388.344,304.167C388.344,308.333,388.344,316.667,388.344,325C388.344,333.333,388.344,341.667,388.344,350C388.344,358.333,388.344,366.667,403.086,375.324C417.829,383.981,447.314,392.962,462.056,397.452L476.799,401.943"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_VPNUsers_IPS_2" d="M729.781,292.5L729.781,297.917C729.781,303.333,729.781,314.167,729.781,323.75C729.781,333.333,729.781,341.667,729.781,350C729.781,358.333,729.781,366.667,715.039,375.324C700.296,383.981,670.811,392.962,656.069,397.452L641.326,401.943"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Domain_3" d="M480.625,438.795L436.065,445.496C391.505,452.197,302.385,465.598,257.826,476.466C213.266,487.333,213.266,495.667,213.266,504C213.266,512.333,213.266,520.667,213.266,528.333C213.266,536,213.266,543,213.266,546.5L213.266,550"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_File_4" d="M499.213,454L489.977,458.167C480.741,462.333,462.269,470.667,453.033,479C443.797,487.333,443.797,495.667,443.797,504C443.797,512.333,443.797,520.667,443.797,528.333C443.797,536,443.797,543,443.797,546.5L443.797,550"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Web_5" d="M618.912,454L628.148,458.167C637.384,462.333,655.856,470.667,665.092,479C674.328,487.333,674.328,495.667,674.328,504C674.328,512.333,674.328,520.667,674.328,528.333C674.328,536,674.328,543,674.328,546.5L674.328,550"></path>
+                                                <path marker-end="url(#ma07b52e18738bc65-ma07b52e18738bc65_flowchart-v2-pointEnd)" style="" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" id="L_IPS_Log_6" d="M637.5,438.795L682.06,445.496C726.62,452.197,815.74,465.598,860.299,476.466C904.859,487.333,904.859,495.667,904.859,504C904.859,512.333,904.859,520.667,904.859,528.333C904.859,536,904.859,543,904.859,546.5L904.859,550"></path>
                                             </g>
                                             <g class="edgeLabels">
                                                 <g class="edgeLabel">
@@ -941,7 +944,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                 </g>
                                             </g>
                                             <g class="nodes">
-                                                <g transform="translate(388.34375, 27.5)" id="flowchart-Internet-66" class="node default">
+                                                <g transform="translate(388.34375, 27.5)" id="flowchart-Internet-242" class="node default">
                                                     <rect height="39" width="97.5078125" y="-19.5" x="-48.75390625" ry="19.5" rx="19.5" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-36.37890625, -12)" style="" class="label">
                                                         <rect></rect>
@@ -952,7 +955,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(388.34375, 261)" id="flowchart-VPN-67" class="node default">
+                                                <g transform="translate(388.34375, 261)" id="flowchart-VPN-243" class="node default">
                                                     <rect height="78" width="192.125" y="-39" x="-96.0625" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-66.0625, -24)" style="" class="label">
                                                         <rect></rect>
@@ -963,7 +966,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(729.78125, 261)" id="flowchart-VPNUsers-68" class="node default">
+                                                <g transform="translate(729.78125, 261)" id="flowchart-VPNUsers-244" class="node default">
                                                     <rect height="63" width="230.75" y="-31.5" x="-115.375" ry="31.5" rx="31.5" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-100, -24)" style="" class="label">
                                                         <rect></rect>
@@ -974,7 +977,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(559.0625, 427)" id="flowchart-IPS-69" class="node default">
+                                                <g transform="translate(559.0625, 427)" id="flowchart-IPS-245" class="node default">
                                                     <rect height="54" width="156.875" y="-27" x="-78.4375" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-48.4375, -12)" style="" class="label">
                                                         <rect></rect>
@@ -985,7 +988,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(213.265625, 593)" id="flowchart-Domain-70" class="node default">
+                                                <g transform="translate(213.265625, 593)" id="flowchart-Domain-246" class="node default">
                                                     <rect height="78" width="180.53125" y="-39" x="-90.265625" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-60.265625, -24)" style="" class="label">
                                                         <rect></rect>
@@ -996,7 +999,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(443.796875, 593)" id="flowchart-File-71" class="node default">
+                                                <g transform="translate(443.796875, 593)" id="flowchart-File-247" class="node default">
                                                     <rect height="78" width="180.53125" y="-39" x="-90.265625" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-60.265625, -24)" style="" class="label">
                                                         <rect></rect>
@@ -1007,7 +1010,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(674.328125, 593)" id="flowchart-Web-72" class="node default">
+                                                <g transform="translate(674.328125, 593)" id="flowchart-Web-248" class="node default">
                                                     <rect height="78" width="180.53125" y="-39" x="-90.265625" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-60.265625, -24)" style="" class="label">
                                                         <rect></rect>
@@ -1018,7 +1021,7 @@ tags: ['GCP', 'Security', 'FortiGate']
                                                         </foreignObject>
                                                     </g>
                                                 </g>
-                                                <g transform="translate(904.859375, 593)" id="flowchart-Log-73" class="node default">
+                                                <g transform="translate(904.859375, 593)" id="flowchart-Log-249" class="node default">
                                                     <rect height="78" width="180.53125" y="-39" x="-90.265625" style="" class="basic label-container"></rect>
                                                     <g transform="translate(-60.265625, -24)" style="" class="label">
                                                         <rect></rect>

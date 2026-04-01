@@ -41,6 +41,9 @@ tags: ['OCI', 'FinOps', 'Cost Management']
         <link rel="stylesheet" href="/site-lib/styles/snippets.css">
     </noscript>
     <link rel="stylesheet" href="/site-lib/styles/obsidian.css">
+    <link rel="preload" href="/site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript>
+        <link rel="stylesheet" href="/site-lib/styles/other-plugins.css">
+    </noscript>
     <link rel="preload" href="/site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel="stylesheet" href="/site-lib/styles/global-variable-styles.css">
     </noscript>
@@ -455,7 +458,7 @@ tags: ['OCI', 'FinOps', 'Cost Management']
     </script>
 </head>
 
-<body class="publish css-settings-manager show-ribbon is-focused">
+<body class="publish css-settings-manager show-ribbon code-styler-style-inline code-styler code-styler-gutter-highlight is-focused">
     <script defer="">
         let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")), window.innerWidth < 480 ? document.body.classList.add("is-phone") : window.innerWidth < 768 ? document.body.classList.add("is-tablet") : window.innerWidth < 1024 ? document.body.classList.add("is-small-screen") : document.body.classList.add("is-large-screen")
@@ -620,7 +623,7 @@ tags: ['OCI', 'FinOps', 'Cost Management']
                                     </svg></span>Diagrama de secuencia</h3>
                         </div>
                         <div class="el-pre code-styler-pre-parent">
-                            <div class="mermaid"><svg aria-roledescription="sequence" role="graphics-document document" viewBox="-50 -10 1922.5 743" height="743" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1922.5" id="m1121df6b59d26fdd">
+                            <div class="mermaid"><svg aria-roledescription="sequence" role="graphics-document document" viewBox="-50 -10 1922.5 743" height="743" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1922.5" id="m5af7a0a24315b9d1">
                                     <g>
                                         <rect class="actor actor-bottom" ry="3" rx="3" name="Notifications" height="65" width="150" stroke="#666" fill="#eaeaea" y="657" x="1672.5"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="689.5" x="1747.5">
                                             <tspan dy="0" x="1747.5">OCI Notifications</tspan>
@@ -662,259 +665,259 @@ tags: ['OCI', 'FinOps', 'Cost Management']
                                         </text>
                                     </g>
                                     <g>
-                                        <line name="Notifications" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1747.5" y1="65" x1="1747.5" id="actor37"></line>
-                                        <g id="root-37">
+                                        <line name="Notifications" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1747.5" y1="65" x1="1747.5" id="actor323"></line>
+                                        <g id="root-323">
                                             <rect class="actor actor-top" ry="3" rx="3" name="Notifications" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="1672.5"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="1747.5">
                                                 <tspan dy="0" x="1747.5">OCI Notifications</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="APEX" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1547.5" y1="65" x1="1547.5" id="actor36"></line>
-                                        <g id="root-36">
+                                        <line name="APEX" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1547.5" y1="65" x1="1547.5" id="actor322"></line>
+                                        <g id="root-322">
                                             <rect class="actor actor-top" ry="3" rx="3" name="APEX" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="1472.5"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="1547.5">
                                                 <tspan dy="0" x="1547.5">Dashboard APEX</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="Monitoring" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1347.5" y1="65" x1="1347.5" id="actor35"></line>
-                                        <g id="root-35">
+                                        <line name="Monitoring" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1347.5" y1="65" x1="1347.5" id="actor321"></line>
+                                        <g id="root-321">
                                             <rect class="actor actor-top" ry="3" rx="3" name="Monitoring" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="1272.5"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="1347.5">
                                                 <tspan dy="0" x="1347.5">OCI Monitoring</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="ADB" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1137" y1="65" x1="1137" id="actor34"></line>
-                                        <g id="root-34">
+                                        <line name="ADB" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="1137" y1="65" x1="1137" id="actor320"></line>
+                                        <g id="root-320">
                                             <rect class="actor actor-top" ry="3" rx="3" name="ADB" height="65" width="171" stroke="#666" fill="#eaeaea" y="0" x="1051.5"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="1137">
                                                 <tspan dy="0" x="1137">Autonomous Database</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="FunctionForecast" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="811" y1="65" x1="811" id="actor33"></line>
-                                        <g id="root-33">
+                                        <line name="FunctionForecast" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="811" y1="65" x1="811" id="actor319"></line>
+                                        <g id="root-319">
                                             <rect class="actor actor-top" ry="3" rx="3" name="FunctionForecast" height="65" width="168" stroke="#666" fill="#eaeaea" y="0" x="727"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="811">
                                                 <tspan dy="0" x="811">ForecastCost Function</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="FunctionHour" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="602" y1="65" x1="602" id="actor32"></line>
-                                        <g id="root-32">
+                                        <line name="FunctionHour" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="602" y1="65" x1="602" id="actor318"></line>
+                                        <g id="root-318">
                                             <rect class="actor actor-top" ry="3" rx="3" name="FunctionHour" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="527"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="602">
                                                 <tspan dy="0" x="602">HourCost Function</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="Scheduler" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="281" y1="65" x1="281" id="actor31"></line>
-                                        <g id="root-31">
+                                        <line name="Scheduler" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="281" y1="65" x1="281" id="actor317"></line>
+                                        <g id="root-317">
                                             <rect class="actor actor-top" ry="3" rx="3" name="Scheduler" height="65" width="152" stroke="#666" fill="#eaeaea" y="0" x="205"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="281">
                                                 <tspan dy="0" x="281">Resource Scheduler</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <g>
-                                        <line name="OCI" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="77.5" y1="65" x1="77.5" id="actor30"></line>
-                                        <g id="root-30">
+                                        <line name="OCI" stroke="#999" stroke-width="0.5px" class="actor-line 200" y2="657" x2="77.5" y1="65" x1="77.5" id="actor316"></line>
+                                        <g id="root-316">
                                             <rect class="actor actor-top" ry="3" rx="3" name="OCI" height="65" width="155" stroke="#666" fill="#eaeaea" y="0" x="0"></rect><text style="text-anchor: middle; font-size: 16px; font-weight: 400;" class="actor actor-box" alignment-baseline="central" dominant-baseline="central" y="32.5" x="77.5">
                                                 <tspan dy="0" x="77.5">Oracle Cloud Bucket</tspan>
                                             </text>
                                         </g>
                                     </g>
                                     <style>
-                                        #m1121df6b59d26fdd {
+                                        #m5af7a0a24315b9d1 {
                                             font-family: var(--font-mermaid);
                                             font-size: 16px;
                                             fill: #333;
                                         }
 
-                                        #m1121df6b59d26fdd .error-icon {
+                                        #m5af7a0a24315b9d1 .error-icon {
                                             fill: #552222;
                                         }
 
-                                        #m1121df6b59d26fdd .error-text {
+                                        #m5af7a0a24315b9d1 .error-text {
                                             fill: #552222;
                                             stroke: #552222;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-thickness-normal {
+                                        #m5af7a0a24315b9d1 .edge-thickness-normal {
                                             stroke-width: 1px;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-thickness-thick {
+                                        #m5af7a0a24315b9d1 .edge-thickness-thick {
                                             stroke-width: 3.5px;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-pattern-solid {
+                                        #m5af7a0a24315b9d1 .edge-pattern-solid {
                                             stroke-dasharray: 0;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-thickness-invisible {
+                                        #m5af7a0a24315b9d1 .edge-thickness-invisible {
                                             stroke-width: 0;
                                             fill: none;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-pattern-dashed {
+                                        #m5af7a0a24315b9d1 .edge-pattern-dashed {
                                             stroke-dasharray: 3;
                                         }
 
-                                        #m1121df6b59d26fdd .edge-pattern-dotted {
+                                        #m5af7a0a24315b9d1 .edge-pattern-dotted {
                                             stroke-dasharray: 2;
                                         }
 
-                                        #m1121df6b59d26fdd .marker {
+                                        #m5af7a0a24315b9d1 .marker {
                                             fill: #333333;
                                             stroke: #333333;
                                         }
 
-                                        #m1121df6b59d26fdd .marker.cross {
+                                        #m5af7a0a24315b9d1 .marker.cross {
                                             stroke: #333333;
                                         }
 
-                                        #m1121df6b59d26fdd svg {
+                                        #m5af7a0a24315b9d1 svg {
                                             font-family: var(--font-mermaid);
                                             font-size: 16px;
                                         }
 
-                                        #m1121df6b59d26fdd p {
+                                        #m5af7a0a24315b9d1 p {
                                             margin: 0;
                                         }
 
-                                        #m1121df6b59d26fdd .actor {
+                                        #m5af7a0a24315b9d1 .actor {
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                             fill: #ECECFF;
                                         }
 
-                                        #m1121df6b59d26fdd text.actor&gt;
+                                        #m5af7a0a24315b9d1 text.actor&gt;
 
                                         tspan {
                                             fill: black;
                                             stroke: none;
                                         }
 
-                                        #m1121df6b59d26fdd .actor-line {
+                                        #m5af7a0a24315b9d1 .actor-line {
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                         }
 
-                                        #m1121df6b59d26fdd .messageLine0 {
+                                        #m5af7a0a24315b9d1 .messageLine0 {
                                             stroke-width: 1.5;
                                             stroke-dasharray: none;
                                             stroke: #333;
                                         }
 
-                                        #m1121df6b59d26fdd .messageLine1 {
+                                        #m5af7a0a24315b9d1 .messageLine1 {
                                             stroke-width: 1.5;
                                             stroke-dasharray: 2, 2;
                                             stroke: #333;
                                         }
 
-                                        #m1121df6b59d26fdd #m1121df6b59d26fdd-arrowhead path {
+                                        #m5af7a0a24315b9d1 #m5af7a0a24315b9d1-arrowhead path {
                                             fill: #333;
                                             stroke: #333;
                                         }
 
-                                        #m1121df6b59d26fdd .sequenceNumber {
+                                        #m5af7a0a24315b9d1 .sequenceNumber {
                                             fill: white;
                                         }
 
-                                        #m1121df6b59d26fdd #m1121df6b59d26fdd-sequencenumber {
+                                        #m5af7a0a24315b9d1 #m5af7a0a24315b9d1-sequencenumber {
                                             fill: #333;
                                         }
 
-                                        #m1121df6b59d26fdd #m1121df6b59d26fdd-crosshead path {
+                                        #m5af7a0a24315b9d1 #m5af7a0a24315b9d1-crosshead path {
                                             fill: #333;
                                             stroke: #333;
                                         }
 
-                                        #m1121df6b59d26fdd .messageText {
+                                        #m5af7a0a24315b9d1 .messageText {
                                             fill: #333;
                                             stroke: none;
                                         }
 
-                                        #m1121df6b59d26fdd .labelBox {
+                                        #m5af7a0a24315b9d1 .labelBox {
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                             fill: #ECECFF;
                                         }
 
-                                        #m1121df6b59d26fdd .labelText,
-                                        #m1121df6b59d26fdd .labelText&gt;
+                                        #m5af7a0a24315b9d1 .labelText,
+                                        #m5af7a0a24315b9d1 .labelText&gt;
 
                                         tspan {
                                             fill: black;
                                             stroke: none;
                                         }
 
-                                        #m1121df6b59d26fdd .loopText,
-                                        #m1121df6b59d26fdd .loopText&gt;
+                                        #m5af7a0a24315b9d1 .loopText,
+                                        #m5af7a0a24315b9d1 .loopText&gt;
 
                                         tspan {
                                             fill: black;
                                             stroke: none;
                                         }
 
-                                        #m1121df6b59d26fdd .loopLine {
+                                        #m5af7a0a24315b9d1 .loopLine {
                                             stroke-width: 2px;
                                             stroke-dasharray: 2, 2;
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                             fill: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                         }
 
-                                        #m1121df6b59d26fdd .note {
+                                        #m5af7a0a24315b9d1 .note {
                                             stroke: #aaaa33;
                                             fill: #fff5ad;
                                         }
 
-                                        #m1121df6b59d26fdd .noteText,
-                                        #m1121df6b59d26fdd .noteText&gt;
+                                        #m5af7a0a24315b9d1 .noteText,
+                                        #m5af7a0a24315b9d1 .noteText&gt;
 
                                         tspan {
                                             fill: black;
                                             stroke: none;
                                         }
 
-                                        #m1121df6b59d26fdd .activation0 {
+                                        #m5af7a0a24315b9d1 .activation0 {
                                             fill: #f4f4f4;
                                             stroke: #666;
                                         }
 
-                                        #m1121df6b59d26fdd .activation1 {
+                                        #m5af7a0a24315b9d1 .activation1 {
                                             fill: #f4f4f4;
                                             stroke: #666;
                                         }
 
-                                        #m1121df6b59d26fdd .activation2 {
+                                        #m5af7a0a24315b9d1 .activation2 {
                                             fill: #f4f4f4;
                                             stroke: #666;
                                         }
 
-                                        #m1121df6b59d26fdd .actorPopupMenu {
+                                        #m5af7a0a24315b9d1 .actorPopupMenu {
                                             position: absolute;
                                         }
 
-                                        #m1121df6b59d26fdd .actorPopupMenuPanel {
+                                        #m5af7a0a24315b9d1 .actorPopupMenuPanel {
                                             position: absolute;
                                             fill: #ECECFF;
                                             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                                             filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
                                         }
 
-                                        #m1121df6b59d26fdd .actor-man line {
+                                        #m5af7a0a24315b9d1 .actor-man line {
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                             fill: #ECECFF;
                                         }
 
-                                        #m1121df6b59d26fdd .actor-man circle,
-                                        #m1121df6b59d26fdd line {
+                                        #m5af7a0a24315b9d1 .actor-man circle,
+                                        #m5af7a0a24315b9d1 line {
                                             stroke: hsl(259.6261682243, 59.7765363128%, 87.9019607843%);
                                             fill: #ECECFF;
                                             stroke-width: 2px;
                                         }
 
-                                        #m1121df6b59d26fdd :root {
+                                        #m5af7a0a24315b9d1 :root {
                                             --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
                                         }
                                     </style>
@@ -935,36 +938,36 @@ tags: ['OCI', 'FinOps', 'Cost Management']
                                         </symbol>
                                     </defs>
                                     <defs>
-                                        <marker orient="auto-start-reverse" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="7.9" id="m1121df6b59d26fdd-arrowhead">
+                                        <marker orient="auto-start-reverse" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="7.9" id="m5af7a0a24315b9d1-arrowhead">
                                             <path d="M -1 0 L 10 5 L 0 10 z"></path>
                                         </marker>
                                     </defs>
                                     <defs>
-                                        <marker refY="4.5" refX="4" orient="auto" markerHeight="8" markerWidth="15" id="m1121df6b59d26fdd-crosshead">
+                                        <marker refY="4.5" refX="4" orient="auto" markerHeight="8" markerWidth="15" id="m5af7a0a24315b9d1-crosshead">
                                             <path style="stroke-dasharray: 0, 0;" d="M 1,2 L 6,7 M 6,2 L 1,7" stroke-width="1pt" stroke="#000000" fill="none"></path>
                                         </marker>
                                     </defs>
                                     <defs>
-                                        <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="15.5" id="m1121df6b59d26fdd-filled-head">
+                                        <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="15.5" id="m5af7a0a24315b9d1-filled-head">
                                             <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
                                         </marker>
                                     </defs>
                                     <defs>
-                                        <marker orient="auto" markerHeight="40" markerWidth="60" refY="15" refX="15" id="m1121df6b59d26fdd-sequencenumber">
+                                        <marker orient="auto" markerHeight="40" markerWidth="60" refY="15" refX="15" id="m5af7a0a24315b9d1-sequencenumber">
                                             <circle r="6" cy="15" cx="15"></circle>
                                         </marker>
                                     </defs><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="80" x="440">Ejecuta cada hora ETL Horario (hh:30)</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="117" x2="598" y1="117" x1="282"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="132" x="341">Descarga reporte FOCUS</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="169" x2="81.5" y1="169" x1="601"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="184" x="868">Inserta costos por hora</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="221" x2="1133" y1="221" x1="603"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="236" x="973">Publica métrica de costos por hora</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="273" x2="1343.5" y1="273" x1="603"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="288" x="545">Ejecuta cada 2 horas ETL Pronóstico (hh:00)</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="325" x2="807" y1="325" x1="282"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="340" x="973">Inserta costos por hora</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="377" x2="1133" y1="377" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="392" x="1078">Publica métrica de costos por hora</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="429" x2="1343.5" y1="429" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="444" x="973">Entrena modelo e inserta predicciones</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="481" x2="1133" y1="481" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="496" x="1078">Publica métricas costo pronosticado para la siguiente hora</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="533" x2="1343.5" y1="533" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="548" x="1546">Dispara alarmas según umbrales</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="585" x2="1743.5" y1="585" x1="1348.5"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="600" x="1344">Consulta datos para dashboards</text>
-                                    <line style="fill: none;" marker-end="url(#m1121df6b59d26fdd-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="637" x2="1141" y1="637" x1="1546.5"></line>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="117" x2="598" y1="117" x1="282"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="132" x="341">Descarga reporte FOCUS</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="169" x2="81.5" y1="169" x1="601"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="184" x="868">Inserta costos por hora</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="221" x2="1133" y1="221" x1="603"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="236" x="973">Publica métrica de costos por hora</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="273" x2="1343.5" y1="273" x1="603"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="288" x="545">Ejecuta cada 2 horas ETL Pronóstico (hh:00)</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="325" x2="807" y1="325" x1="282"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="340" x="973">Inserta costos por hora</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="377" x2="1133" y1="377" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="392" x="1078">Publica métrica de costos por hora</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="429" x2="1343.5" y1="429" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="444" x="973">Entrena modelo e inserta predicciones</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="481" x2="1133" y1="481" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="496" x="1078">Publica métricas costo pronosticado para la siguiente hora</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="533" x2="1343.5" y1="533" x1="812"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="548" x="1546">Dispara alarmas según umbrales</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="585" x2="1743.5" y1="585" x1="1348.5"></line><text style="font-size: 16px; font-weight: 400;" dy="1em" class="messageText" alignment-baseline="middle" dominant-baseline="middle" text-anchor="middle" y="600" x="1344">Consulta datos para dashboards</text>
+                                    <line style="fill: none;" marker-end="url(#m5af7a0a24315b9d1-arrowhead)" stroke="none" stroke-width="2" class="messageLine0" y2="637" x2="1141" y1="637" x1="1546.5"></line>
                                 </svg></div>
                         </div>
                         <div class="el-h3">
@@ -1197,7 +1200,7 @@ tags: ['OCI', 'FinOps', 'Cost Management']
                                         <path d="M3 8L12 17L21 8"></path>
                                     </svg></span>VCN mapa de rutas</h5>
                         </div>
-                        <div class="el-p"><embed src="/assets/projects/resources/network_visualizer_vcn_map.pdf" target="_self" style="width: 100%; max-width: 100%; height: 317.881px;"></div>
+                        <div class="el-p"><embed src="/assets/projects/resources/network_visualizer_vcn_map.pdf" target="_self" style="width: 100%; max-width: 100%; height: 800px;"></div>
                         <div class="el-h5">
                             <h5 data-heading="Registros de auditoria de actualización de alarma" dir="auto" class="heading" id="Registros_de_auditoria_de_actualización_de_alarma_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
                                         <path d="M3 8L12 17L21 8"></path>
@@ -1241,10 +1244,10 @@ tags: ['OCI', 'FinOps', 'Cost Management']
                                     </svg></span>Vistas</h5>
                         </div>
                         <div class="el-pre code-styler-pre-parent">
-                            <pre class="language-plsql code-styler-pre" defaultfold="false"><div class="code-styler-header-container"><div><img class="code-styler-icon is-unresolved" src="blob:app://obsidian.md/ecdff9cb-d4f2-402e-a33b-45940e469f8a" target="_self"></div><div class="code-styler-header-text"></div></div><code data-line="0" class="language-plsql is-loaded"><div class="code-styler-line"><div class="code-styler-line-number">1</div><div class="code-styler-line-text"><span class="token keyword">CREATE</span> <span class="token keyword">OR</span> REPLACE <span class="token keyword">FORCE</span> EDITIONABLE <span class="token keyword">VIEW</span> <span class="token string">"ADMIN"</span><span class="token punctuation">.</span><span class="token string">"DEMO_TS_DATA_DAILY"</span> <span class="token punctuation">(</span><span class="token string">"TIME_END"</span><span class="token punctuation">,</span> <span class="token string">"EFFECTIVE_COST"</span><span class="token punctuation">)</span> <span class="token keyword">DEFAULT</span> COLLATION <span class="token string">"USING_NLS_COMP"</span>  <span class="token keyword">AS</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">2</div><div class="code-styler-line-text">  <span class="token keyword">SELECT</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">3</div><div class="code-styler-line-text">    <span class="token comment">-- Agrupamos truncando a la fecha sin hora (inicio del día)</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">4</div><div class="code-styler-line-text">    TRUNC<span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">,</span> <span class="token string">'DD'</span><span class="token punctuation">)</span> <span class="token keyword">AS</span> TIME_END<span class="token punctuation">,</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">5</div><div class="code-styler-line-text">    <span class="token comment">-- Sumamos todos los costos que cayeron en ese día</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">6</div><div class="code-styler-line-text">    <span class="token function">SUM</span><span class="token punctuation">(</span>EFFECTIVE_COST<span class="token punctuation">)</span> <span class="token keyword">AS</span> EFFECTIVE_COST </div></div><div class="code-styler-line"><div class="code-styler-line-number">7</div><div class="code-styler-line-text"><span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST</div></div><div class="code-styler-line"><div class="code-styler-line-number">8</div><div class="code-styler-line-text"><span class="token comment">-- Agregamos la restricción de los 60 días más recientes para el entrenamiento</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">9</div><div class="code-styler-line-text"><span class="token keyword">WHERE</span> CHARGE_PERIOD_END <span class="token operator">&gt;</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">)</span> <span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token keyword">INTERVAL</span> <span class="token string">'60'</span> <span class="token keyword">DAY</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">10</div><div class="code-styler-line-text"><span class="token keyword">GROUP</span> <span class="token keyword">BY</span> TRUNC<span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">,</span> <span class="token string">'DD'</span><span class="token punctuation">)</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">11</div><div class="code-styler-line-text"><span class="token keyword">ORDER</span> <span class="token keyword">BY</span> TIME_END <span class="token keyword">ASC</span><span class="token punctuation">;</span></div></div></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+                            <pre class="language-plsql code-styler-pre" defaultfold="false"><div class="code-styler-header-container"><div><img class="code-styler-icon is-unresolved" src="blob:app://obsidian.md/4c468450-ba77-4bd7-bf19-acdd6748d724" target="_self"></div><div class="code-styler-header-text"></div></div><code data-line="0" class="language-plsql is-loaded"><div class="code-styler-line"><div class="code-styler-line-number">1</div><div class="code-styler-line-text"><span class="token keyword">CREATE</span> <span class="token keyword">OR</span> REPLACE <span class="token keyword">FORCE</span> EDITIONABLE <span class="token keyword">VIEW</span> <span class="token string">"ADMIN"</span><span class="token punctuation">.</span><span class="token string">"DEMO_TS_DATA_DAILY"</span> <span class="token punctuation">(</span><span class="token string">"TIME_END"</span><span class="token punctuation">,</span> <span class="token string">"EFFECTIVE_COST"</span><span class="token punctuation">)</span> <span class="token keyword">DEFAULT</span> COLLATION <span class="token string">"USING_NLS_COMP"</span>  <span class="token keyword">AS</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">2</div><div class="code-styler-line-text">  <span class="token keyword">SELECT</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">3</div><div class="code-styler-line-text">    <span class="token comment">-- Agrupamos truncando a la fecha sin hora (inicio del día)</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">4</div><div class="code-styler-line-text">    TRUNC<span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">,</span> <span class="token string">'DD'</span><span class="token punctuation">)</span> <span class="token keyword">AS</span> TIME_END<span class="token punctuation">,</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">5</div><div class="code-styler-line-text">    <span class="token comment">-- Sumamos todos los costos que cayeron en ese día</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">6</div><div class="code-styler-line-text">    <span class="token function">SUM</span><span class="token punctuation">(</span>EFFECTIVE_COST<span class="token punctuation">)</span> <span class="token keyword">AS</span> EFFECTIVE_COST </div></div><div class="code-styler-line"><div class="code-styler-line-number">7</div><div class="code-styler-line-text"><span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST</div></div><div class="code-styler-line"><div class="code-styler-line-number">8</div><div class="code-styler-line-text"><span class="token comment">-- Agregamos la restricción de los 60 días más recientes para el entrenamiento</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">9</div><div class="code-styler-line-text"><span class="token keyword">WHERE</span> CHARGE_PERIOD_END <span class="token operator">&gt;</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">)</span> <span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token keyword">INTERVAL</span> <span class="token string">'60'</span> <span class="token keyword">DAY</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">10</div><div class="code-styler-line-text"><span class="token keyword">GROUP</span> <span class="token keyword">BY</span> TRUNC<span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">,</span> <span class="token string">'DD'</span><span class="token punctuation">)</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">11</div><div class="code-styler-line-text"><span class="token keyword">ORDER</span> <span class="token keyword">BY</span> TIME_END <span class="token keyword">ASC</span><span class="token punctuation">;</span></div></div></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
                         </div>
                         <div class="el-pre code-styler-pre-parent">
-                            <pre class="language-plsql code-styler-pre" defaultfold="false"><div class="code-styler-header-container"><div><img class="code-styler-icon is-unresolved" src="blob:app://obsidian.md/ecdff9cb-d4f2-402e-a33b-45940e469f8a" target="_self"></div><div class="code-styler-header-text"></div></div><code data-line="0" class="language-plsql is-loaded"><div class="code-styler-line"><div class="code-styler-line-number">1</div><div class="code-styler-line-text"><span class="token keyword">CREATE</span> <span class="token keyword">OR</span> REPLACE <span class="token keyword">FORCE</span> EDITIONABLE <span class="token keyword">VIEW</span> <span class="token string">"ADMIN"</span><span class="token punctuation">.</span><span class="token string">"DEMO_TS_DATA"</span> <span class="token punctuation">(</span><span class="token string">"TIME_END"</span><span class="token punctuation">,</span> <span class="token string">"EFFECTIVE_COST"</span><span class="token punctuation">)</span> <span class="token keyword">DEFAULT</span> COLLATION <span class="token string">"USING_NLS_COMP"</span>  <span class="token keyword">AS</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">2</div><div class="code-styler-line-text">  <span class="token keyword">SELECT</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">3</div><div class="code-styler-line-text">    CHARGE_PERIOD_END <span class="token keyword">AS</span> TIME_END<span class="token punctuation">,</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">4</div><div class="code-styler-line-text">    <span class="token function">SUM</span><span class="token punctuation">(</span>EFFECTIVE_COST<span class="token punctuation">)</span> <span class="token keyword">AS</span> EFFECTIVE_COST </div></div><div class="code-styler-line"><div class="code-styler-line-number">5</div><div class="code-styler-line-text"><span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST</div></div><div class="code-styler-line"><div class="code-styler-line-number">6</div><div class="code-styler-line-text"><span class="token comment">-- Agregamos la restricción de las 48 horas directamente para el entrenamiento</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">7</div><div class="code-styler-line-text"><span class="token keyword">WHERE</span> CHARGE_PERIOD_END <span class="token operator">&gt;</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">)</span> <span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token keyword">INTERVAL</span> <span class="token string">'48'</span> <span class="token keyword">HOUR</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">8</div><div class="code-styler-line-text"><span class="token keyword">GROUP</span> <span class="token keyword">BY</span> CHARGE_PERIOD_END</div></div><div class="code-styler-line"><div class="code-styler-line-number">9</div><div class="code-styler-line-text"><span class="token keyword">ORDER</span> <span class="token keyword">BY</span> CHARGE_PERIOD_END <span class="token keyword">ASC</span><span class="token punctuation">;</span></div></div></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+                            <pre class="language-plsql code-styler-pre" defaultfold="false"><div class="code-styler-header-container"><div><img class="code-styler-icon is-unresolved" src="blob:app://obsidian.md/4c468450-ba77-4bd7-bf19-acdd6748d724" target="_self"></div><div class="code-styler-header-text"></div></div><code data-line="0" class="language-plsql is-loaded"><div class="code-styler-line"><div class="code-styler-line-number">1</div><div class="code-styler-line-text"><span class="token keyword">CREATE</span> <span class="token keyword">OR</span> REPLACE <span class="token keyword">FORCE</span> EDITIONABLE <span class="token keyword">VIEW</span> <span class="token string">"ADMIN"</span><span class="token punctuation">.</span><span class="token string">"DEMO_TS_DATA"</span> <span class="token punctuation">(</span><span class="token string">"TIME_END"</span><span class="token punctuation">,</span> <span class="token string">"EFFECTIVE_COST"</span><span class="token punctuation">)</span> <span class="token keyword">DEFAULT</span> COLLATION <span class="token string">"USING_NLS_COMP"</span>  <span class="token keyword">AS</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">2</div><div class="code-styler-line-text">  <span class="token keyword">SELECT</span> </div></div><div class="code-styler-line"><div class="code-styler-line-number">3</div><div class="code-styler-line-text">    CHARGE_PERIOD_END <span class="token keyword">AS</span> TIME_END<span class="token punctuation">,</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">4</div><div class="code-styler-line-text">    <span class="token function">SUM</span><span class="token punctuation">(</span>EFFECTIVE_COST<span class="token punctuation">)</span> <span class="token keyword">AS</span> EFFECTIVE_COST </div></div><div class="code-styler-line"><div class="code-styler-line-number">5</div><div class="code-styler-line-text"><span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST</div></div><div class="code-styler-line"><div class="code-styler-line-number">6</div><div class="code-styler-line-text"><span class="token comment">-- Agregamos la restricción de las 48 horas directamente para el entrenamiento</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">7</div><div class="code-styler-line-text"><span class="token keyword">WHERE</span> CHARGE_PERIOD_END <span class="token operator">&gt;</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span>CHARGE_PERIOD_END<span class="token punctuation">)</span> <span class="token keyword">FROM</span> ADMIN<span class="token punctuation">.</span>FOCUS_COST<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token keyword">INTERVAL</span> <span class="token string">'48'</span> <span class="token keyword">HOUR</span></div></div><div class="code-styler-line"><div class="code-styler-line-number">8</div><div class="code-styler-line-text"><span class="token keyword">GROUP</span> <span class="token keyword">BY</span> CHARGE_PERIOD_END</div></div><div class="code-styler-line"><div class="code-styler-line-number">9</div><div class="code-styler-line-text"><span class="token keyword">ORDER</span> <span class="token keyword">BY</span> CHARGE_PERIOD_END <span class="token keyword">ASC</span><span class="token punctuation">;</span></div></div></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
                         </div>
                         <div class="el-h4">
                             <h4 data-heading="Functions y Containers" dir="auto" class="heading" id="Functions_y_Containers_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
