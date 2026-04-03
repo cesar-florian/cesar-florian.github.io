@@ -758,6 +758,35 @@ section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .section-subheading {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+section#contact #success .alert {
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+section#contact #success .alert-success {
+    background-color: rgba(39, 174, 96, 0.2);
+    color: #a8f0c6;
+    border-left: 4px solid #27ae60;
+}
+
+section#contact #success .alert-danger {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #f5b7b1;
+    border-left: 4px solid #e74c3c;
+}
+
+section#contact #success .alert .close {
+    color: inherit;
+    opacity: 0.6;
+}
+
 section#contact .form-group {
     margin-bottom: 20px;
 }
