@@ -14,37 +14,49 @@
                         <div class="modal-body">
                             <h2>{{ project.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
-                            <p>{{ project.description }}</p>
-                            {% if project.has_project_url %}
-                            <a href="{{ project.url | prepend: site.baseurl }}">Ver mas...</a>
-                            {% endif %}
-                            {% if project.github_url %}
-                            <a href="{{ project.github_url }}">GitHub</a>
-                            {% endif %}
-                            <ul class="list-inline item-details">
-                                <li>Fecha:
-                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Rol:
-                                    <strong><a href="http://startbootstrap.com">{{ project.role }}</a>
-                                    </strong>
-                                </li>
-                                <li>Categoría:
-                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
-                                    </strong>
-                                </li>
-                                <li>Tecnologías:
-                                    <strong>
-                                        {% for tech in project.technologies %}
-                                        <span class="tag">{{ tech }}</span>
-                                        <!--<p><strong>Tecnologías:</strong> {{ page.tecnologias | join: ", " }}</p>-->
-                                        {% endfor %}
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered modal-project-img" alt="{{ project.alt }}">
+
+                            <p class="modal-description">{{ project.description }}</p>
+
+                            <div class="modal-meta">
+                                <div class="modal-meta-item">
+                                    <span class="modal-meta-label"><i class="fa fa-calendar"></i> Fecha</span>
+                                    <span class="modal-meta-value">{{ project.project-date }}</span>
+                                </div>
+                                <div class="modal-meta-item">
+                                    <span class="modal-meta-label"><i class="fa fa-user"></i> Rol</span>
+                                    <span class="modal-meta-value">{{ project.role }}</span>
+                                </div>
+                                <div class="modal-meta-item">
+                                    <span class="modal-meta-label"><i class="fa fa-folder-open"></i> Categoría</span>
+                                    <span class="modal-meta-value">{{ project.category }}</span>
+                                </div>
+                            </div>
+
+                            <div class="modal-tech-section">
+                                <p class="modal-tech-label"><i class="fa fa-code"></i> Tecnologías</p>
+                                <div class="modal-tech-badges">
+                                    {% for tech in project.technologies %}
+                                    <span class="modal-tech-badge">{{ tech }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                            <div class="modal-actions">
+                                {% if project.has_project_url %}
+                                <a href="{{ project.url | prepend: site.baseurl }}" class="btn btn-primary btn-modal-action">
+                                    <i class="fa fa-external-link"></i> Ver proyecto
+                                </a>
+                                {% endif %}
+                                {% if project.github_url %}
+                                <a href="{{ project.github_url }}" class="btn btn-modal-outline btn-modal-action" target="_blank">
+                                    <i class="fa fa-github"></i> GitHub
+                                </a>
+                                {% endif %}
+                                <button type="button" class="btn btn-default btn-modal-action" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Cerrar
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

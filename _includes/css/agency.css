@@ -444,7 +444,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     text-transform: none;
 }
 
@@ -865,7 +865,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 50px 0;
+    padding: 60px 0 50px;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -878,7 +878,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     margin-top: 0;
-    font-size: 3em;
+    font-size: 2.6em;
 }
 
 .portfolio-modal .modal-content p {
@@ -892,13 +892,124 @@ ul.social-buttons li a:active {
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
+.portfolio-modal .modal-project-img {
+    margin-bottom: 35px;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+.portfolio-modal .modal-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.portfolio-modal .modal-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 35px;
+}
+
+.portfolio-modal .modal-meta-item {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 14px 22px;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.portfolio-modal .modal-meta-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #999;
+    font-weight: 600;
+}
+
+.portfolio-modal .modal-meta-label i {
+    margin-right: 4px;
+    color: #{{ site.data.template.color.primary }};
+}
+
+.portfolio-modal .modal-meta-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.portfolio-modal .modal-tech-section {
+    margin-bottom: 40px;
+}
+
+.portfolio-modal .modal-tech-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.portfolio-modal .modal-tech-label i {
+    color: #{{ site.data.template.color.primary }};
+    margin-right: 5px;
+}
+
+.portfolio-modal .modal-tech-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.portfolio-modal .modal-tech-badge {
+    display: inline-block;
+    background-color: #{{ site.data.template.color.secondary }};
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+}
+
+.portfolio-modal .modal-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.portfolio-modal .btn-modal-action {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-modal .btn-modal-action i {
+    margin-right: 6px;
+}
+
+.portfolio-modal .btn-modal-outline {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.portfolio-modal .btn-modal-outline:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 .portfolio-modal .close-modal {
