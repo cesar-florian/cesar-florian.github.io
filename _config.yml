@@ -109,20 +109,6 @@ services:
   icon: fa-plug
 
 
-top_skills:
-
-- name: C# / .NET
-  icon: fa-code
-- name: Microservicios
-  icon: fa-sitemap
-- name: Oracle Cloud / OCI
-  icon: fa-cloud
-- name: Docker
-  icon: fa-cube
-- name: Clean Architecture
-  icon: fa-th-large
-
-
 skills:
 
 - group: Cloud & DevOps
