@@ -365,11 +365,16 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -432,6 +437,7 @@ section h3.section-subheading {
     width: 100%;
     text-align: center;
     background-color: #fff;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;

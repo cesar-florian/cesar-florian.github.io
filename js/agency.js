@@ -35,22 +35,3 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
-
-// Equalize portfolio card caption heights so all cards are the same size
-function equalizePortfolioItems() {
-    var $captions = $('#portfolio .portfolio-caption');
-    $captions.css('min-height', '');
-    var maxHeight = 0;
-    $captions.each(function() {
-        maxHeight = Math.max(maxHeight, $(this).outerHeight());
-    });
-    $captions.css('min-height', maxHeight + 'px');
-}
-
-$(document).ready(function() {
-    equalizePortfolioItems();
-});
-
-$(window).resize(function() {
-    equalizePortfolioItems();
-});
