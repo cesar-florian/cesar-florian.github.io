@@ -19,14 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center skills-toggle-row">
-                    <button class="skills-toggle-btn" id="skillsToggle" data-state="expanded">
-                        <i class="fa fa-compress"></i> Vista compacta
-                    </button>
-                </div>
-            </div>
-            <div class="row skills-grid" id="skillsGrid">
+            <div class="row skills-grid">
                 {% for skill in site.skills %}
                 <div class="col-md-4 col-sm-6 skills-col">
                     <div class="skill-card">
@@ -34,10 +27,15 @@
                             <span class="skill-icon"><i class="fa {{ skill.icon }}"></i></span>
                             <h4 class="skill-group-title">{{ skill.group }}</h4>
                         </div>
-                        <div class="skill-badges skill-badges-collapsible">
+                        <div class="skill-badges">
                             {% for item in skill.list %}
-                            <span class="skill-badge">{{ item }}</span>
+                            <span class="skill-badge{% if forloop.index > 3 %} skill-badge-extra{% endif %}">{{ item }}</span>
                             {% endfor %}
+                            {% if skill.list.size > 3 %}
+                            <button class="skill-expand-btn" onclick="toggleSkillCard(this)">
+                                +{{ skill.list.size | minus: 3 }} más
+                            </button>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -46,21 +44,21 @@
         </div>
     </section>
     <script>
-        (function () {
-            var btn = document.getElementById('skillsToggle');
-            if (!btn) return;
-            btn.addEventListener('click', function () {
-                var expanded = btn.getAttribute('data-state') === 'expanded';
-                var badges = document.querySelectorAll('.skill-badges-collapsible');
-                if (expanded) {
-                    badges.forEach(function (el) { el.classList.add('skill-badges-hidden'); });
-                    btn.setAttribute('data-state', 'compact');
-                    btn.innerHTML = '<i class="fa fa-expand"></i> Vista completa';
-                } else {
-                    badges.forEach(function (el) { el.classList.remove('skill-badges-hidden'); });
-                    btn.setAttribute('data-state', 'expanded');
-                    btn.innerHTML = '<i class="fa fa-compress"></i> Vista compacta';
-                }
+        function toggleSkillCard(btn) {
+            var badges = btn.parentElement.querySelectorAll('.skill-badge-extra');
+            var expanded = btn.getAttribute('data-expanded') === 'true';
+            badges.forEach(function (b) { b.style.display = expanded ? 'none' : 'inline-block'; });
+            btn.setAttribute('data-expanded', expanded ? 'false' : 'true');
+            btn.textContent = expanded ? btn.getAttribute('data-label') : 'Ver menos';
+            if (!btn.getAttribute('data-label')) {
+                btn.setAttribute('data-label', btn.textContent);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.skill-badge-extra').forEach(function (b) { b.style.display = 'none'; });
+            document.querySelectorAll('.skill-expand-btn').forEach(function (btn) {
+                btn.setAttribute('data-expanded', 'false');
+                btn.setAttribute('data-label', btn.textContent);
             });
-        })();
+        });
     </script>
