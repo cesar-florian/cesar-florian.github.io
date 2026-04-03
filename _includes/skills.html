@@ -7,7 +7,26 @@
                     <h3 class="section-subheading text-muted">Tecnologías, metodologías y prácticas que aplico para diseñar, desarrollar y optimizar sistemas profesionales</h3>
                 </div>
             </div>
-            <div class="row skills-grid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-skills-row">
+                        {% for ts in site.top_skills %}
+                        <div class="top-skill-item">
+                            <span class="top-skill-icon"><i class="fa {{ ts.icon }}"></i></span>
+                            <span class="top-skill-name">{{ ts.name }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center skills-toggle-row">
+                    <button class="skills-toggle-btn" id="skillsToggle" data-state="expanded">
+                        <i class="fa fa-compress"></i> Vista compacta
+                    </button>
+                </div>
+            </div>
+            <div class="row skills-grid" id="skillsGrid">
                 {% for skill in site.skills %}
                 <div class="col-md-4 col-sm-6 skills-col">
                     <div class="skill-card">
@@ -15,7 +34,7 @@
                             <span class="skill-icon"><i class="fa {{ skill.icon }}"></i></span>
                             <h4 class="skill-group-title">{{ skill.group }}</h4>
                         </div>
-                        <div class="skill-badges">
+                        <div class="skill-badges skill-badges-collapsible">
                             {% for item in skill.list %}
                             <span class="skill-badge">{{ item }}</span>
                             {% endfor %}
@@ -26,3 +45,22 @@
             </div>
         </div>
     </section>
+    <script>
+        (function () {
+            var btn = document.getElementById('skillsToggle');
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                var expanded = btn.getAttribute('data-state') === 'expanded';
+                var badges = document.querySelectorAll('.skill-badges-collapsible');
+                if (expanded) {
+                    badges.forEach(function (el) { el.classList.add('skill-badges-hidden'); });
+                    btn.setAttribute('data-state', 'compact');
+                    btn.innerHTML = '<i class="fa fa-expand"></i> Vista completa';
+                } else {
+                    badges.forEach(function (el) { el.classList.remove('skill-badges-hidden'); });
+                    btn.setAttribute('data-state', 'expanded');
+                    btn.innerHTML = '<i class="fa fa-compress"></i> Vista compacta';
+                }
+            });
+        })();
+    </script>
