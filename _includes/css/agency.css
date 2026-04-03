@@ -1044,7 +1044,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -1055,6 +1055,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-project-img {
+    margin-top: 25px;
     margin-bottom: 35px;
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
