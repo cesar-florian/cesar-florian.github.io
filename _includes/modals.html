@@ -44,8 +44,8 @@
 
                             <div class="modal-actions">
                                 {% if project.has_project_url %}
-                                <a href="{{ project.url | prepend: site.baseurl }}" class="btn btn-primary btn-modal-action">
-                                    <i class="fa fa-external-link"></i> Ver proyecto
+                                <a href="{{ project.url | prepend: site.baseurl }}" class="btn btn-primary btn-modal-action btn-no-uppercase">
+                                    <i class="fa fa-external-link"></i> Ver detalles
                                 </a>
                                 {% endif %}
                                 {% if project.github_url %}
