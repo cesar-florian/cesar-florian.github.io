@@ -7,20 +7,19 @@
                     <h3 class="section-subheading text-muted">Tecnologías, metodologías y prácticas que aplico para diseñar, desarrollar y optimizar sistemas profesionales</h3>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row skills-grid">
                 {% for skill in site.skills %}
-                {% if forloop.first and forloop.length == 5 %}
-                <div class="col-md-2 col-sm-offset-1">
-                {% else %}
-                <div class="col-md-2">
-                {% endif %}
-                    <div class="skills-item">
-                        <h4>{{ skill.group }}</h4>
-                        <ul class="list-unstyled">
+                <div class="col-md-4 col-sm-6 skills-col">
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <span class="skill-icon"><i class="fa {{ skill.icon }}"></i></span>
+                            <h4 class="skill-group-title">{{ skill.group }}</h4>
+                        </div>
+                        <div class="skill-badges">
                             {% for item in skill.list %}
-                            <li><p class="text-muted">{{ item }}</p></li>
+                            <span class="skill-badge">{{ item }}</span>
                             {% endfor %}
-                        </ul>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}

@@ -111,19 +111,24 @@ services:
 
 skills:
 
-- group: Cloud, DevOps y control de versiones
+- group: Cloud & DevOps
+  icon: fa-cloud
   list: [ Oracle Cloud / OCI, Docker, Kubernetes, GCP, IIS, Linux, Git / GitHub, Azure / AKS ]
 
-- group: Desarrollo (Backend y Frontend)
+- group: Desarrollo
+  icon: fa-code
   list: [ C# / .NET, SQL Server, Entity Framework, RabbitMQ, SOAP / REST, MongoDB, JavaScript, JQuery, React, Bootstrap, HTML / CSS, Python ]
 
 - group: Arquitectura y diseño
+  icon: fa-sitemap
   list: [ Clean Architecture, Microservices, High Availability, PlantUML, YARP / API Gateway, MVC, Design Patterns, Event-Driven Architecture, Hexagonal Architecture, Domain Driven Design, CQRS, Event Sourcing, Pub-Sub Pattern, Saga Patterns, SNS / SQS, Backend For Frontend, BIAN / Open Banking ]
 
 - group: Calidad y observabilidad
+  icon: fa-check-circle
   list: [ Testing, Dynatrace, Grafana, Prometheus, Jaeger, OpenTelemetry, Logging, Kibana ]
 
 - group: Seguridad
+  icon: fa-shield
   list: [ JWT, OAuth2, RSA / Cryptography, OWASP ]
 
 
