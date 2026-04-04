@@ -1074,7 +1074,8 @@ ul.social-buttons li a:active {
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .portfolio-modal .modal-meta-item {
