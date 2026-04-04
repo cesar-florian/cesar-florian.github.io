@@ -405,7 +405,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     /*background: rgba(254,209,54,.9); */ /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary_rgb }}, 0.9);
+    background: rgba({{ site.data.template.color.primary_rgb }}, 0.5);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
