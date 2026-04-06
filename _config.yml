@@ -138,7 +138,7 @@ certifications:
   entity: Oracle
   description: 'Diseño de arquitecturas seguras, escalables y de alta disponibilidad en Oracle Cloud Infrastructure'
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=4D169126375008A7373F6F367F26DD772C5843BF8F6228F8AFC02C7BADDE5727'
-  image: foundations.png
+  image: OCI Architect.jpg
 
 - name: 'Oracle Data Platform (ODP) Certified Foundations Associate'
   entity: Oracle
