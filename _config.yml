@@ -138,25 +138,25 @@ certifications:
   entity: Oracle
   description: 'Diseño de arquitecturas seguras, escalables y de alta disponibilidad en Oracle Cloud Infrastructure'
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=4D169126375008A7373F6F367F26DD772C5843BF8F6228F8AFC02C7BADDE5727'
-  image: OCI Architect.jpg
+  image: 'OCI Architect Associate.jpg'
 
 - name: 'Oracle Data Platform (ODP) Certified Foundations Associate'
   entity: Oracle
   description: 'Bases de datos, analítica y soluciones de datos en Oracle Cloud'
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=A41D362F94E8788117F4EADFEF2140F646D0084D9725FFDAA98866B9A19E7D2D'
-  image: foundations.png
+  image: 'ODP Foundations Associate'
   
 - name: 'OCI Certified AI Foundations Associate'
   entity: Oracle
   description: 'Inteligencia artificial, machine learning y servicios de IA en Oracle Cloud Infrastructure'
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=6559E12E84C3E043B118995CC87581E79451B53ADAC619A6AEFE11BD2FAE5FB0'
-  image: foundations.png
+  image: 'OCI AI Foundations Associate.png'
 
 - name: 'OCI Certified Foundations Associate'
   entity: Oracle
   description: 'Infraestructura cloud, servicios esenciales y modelo de nube distribuida en Oracle Cloud Infrastructure'
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=1D383088D85462FE25AAA0140A5FB74467C2B5C292A559976C77F4B39508C018'
-  image: foundations.png
+  image: 'OCI Foundations Associate.png'
 
 
 # Postal address (add as many lines as necessary)
