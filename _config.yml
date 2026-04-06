@@ -44,9 +44,10 @@ social:
     url: https://github.com/cesar-florian
   - title: linkedin
     url: https://www.linkedin.com/in/cesar-florian
-  - title: gmail
+  - title: envelope
     url: mailto:ce.florian.27@gmail.com
-
+  - title: file-text
+    url: https://rxresu.me/cesar-florian/cv
 
 
 experience:
