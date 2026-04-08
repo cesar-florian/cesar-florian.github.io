@@ -227,30 +227,22 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
-.navbar-default .nav li a:hover {
-    outline: 0;
-    color: #{{ site.data.template.color.primary }};
-}
-
+.navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
@@ -271,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0;
     }
 
     .navbar-default.navbar-shrink {
