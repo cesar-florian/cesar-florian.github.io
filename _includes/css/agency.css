@@ -227,14 +227,14 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
-.navbar-default .nav li a:hover {
-    outline: 0;
-    color: #{{ site.data.template.color.primary }};
-}
-
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #fff;
+}
+
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
