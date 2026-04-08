@@ -18,6 +18,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             
+            $('#success').html('');
+            $('#loading').show();
+            $('button[type="submit"]').prop('disabled', true);
+            
             fetch(event.target.action, {
                 method: event.target.method,
                 // Convertir el objeto a una cadena JSON
@@ -41,6 +45,10 @@ $(function() {
             })
             .then(data => {
                 // Esto se ejecuta solo si la petición fue exitosa y la respuesta es JSON válida
+                // Ocultar loading
+                $('#loading').hide();
+                $('button[type="submit"]').prop('disabled', false);
+                
                 // Mensaje de éxito
                 $('#success').html("<div class='alert alert-success'>");
                 $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -54,6 +62,10 @@ $(function() {
             })
             .catch(error => {
                 // Esto se ejecuta si hay un error en la red o si la respuesta no fue exitosa
+                // Ocultar loading
+                $('#loading').hide();
+                $('button[type="submit"]').prop('disabled', false);
+                
                 // Mensaje de error
                 $('#success').html("<div class='alert alert-danger'>");
                 $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
