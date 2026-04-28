@@ -165,12 +165,17 @@ certifications:
   url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=1D383088D85462FE25AAA0140A5FB74467C2B5C292A559976C77F4B39508C018'
   image: 'OCI Foundations Associate.png'
 
+- name: 'Introduction to FOCUS'
+  entity: FinOps Foundation
+  description: 'FOCUS como base del análisis FinOps, estandarizando datos para decisiones estratégicas.'
+  url: 'https://verify.skilljar.com/c/ket2qf54cgno'
+  image: 'Finops Focus.png'
+
 - name: 'Scrum Fundamentals Certified (SFC™)'
   entity: SCRUMstudy
   description: 'Scrum, trabajo ágil en equipo y fundamentos para la entrega de valor'
   url: 'https://www.scrumstudy.com/certification/verify?type=SFC&number=984634'
   image: 'SFC Scrum.webp'
-
 
 # Postal address (add as many lines as necessary)
 address:
